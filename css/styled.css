@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   body {
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     background-size: auto 100vh;
     font-family: "Source Code Pro", monospace;
     height: 100vh;
@@ -19,29 +20,65 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-    background-color: #000;
-    border-bottom: 1px solid #257be5;
+  background-color: rgb(0, 5, 31);
+  border-bottom: 1px solid #257be5;
+  padding: 0px 25px
 }
 
 button {
-    background-color: #000;
+    background-color: rgba(71, 71, 71, 0.425);
     border: 1px solid white;
+    border-radius: 10px;
     color: white;
     padding: 10px 20px 10px 20px;
     margin-right: 5px;
     
 }
 
+.categoria{
+  display: flex;
+  flex-direction:row;
+  overflow: auto;
+  padding:20px 0px;
+  margin-bottom: 100px;
+}
 
+.videoCard{
+  height:190px;
+  width:250px;
+  background-color:rgb(24, 24, 24);
+  margin:0px 40px
+}
+.thumb{
+  height:125px;
+  background-color:#257be5
+}
+.title{
+  color:white;
+  font-size: 20px;
+}
+.dataAdd{
+  color:grey
+}
 
 img {
-    padding: 0px;
+    margin: 20px 0px;
 
 }
 
 h1 {
     color: white;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 10%;
+    margin:10px
   }
+
+  /* width */
+.categoria::-webkit-scrollbar {
+  height:5px
+}
+
+
+/* Handle */
+.categoria::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.014);
+  border-radius: 10px;
+}
