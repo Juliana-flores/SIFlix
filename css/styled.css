@@ -5,43 +5,94 @@
     box-sizing: border-box;
   }
   
-  body {
-    background-color: black;
-    background-size: auto 100vh;
-    font-family: "Source Code Pro", monospace;
-    height: 100vh;
-    font-size: 12px;
-    
-
+body {
+  background-color: black;
+  background-size: auto 100vh;
+  font-family: "Source Code Pro", monospace;
+  height: 100vh;
+  font-size: 12px;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-    background-color: #000;
-    border-bottom: 1px solid #257be5;
+  background-color: #000;
+  border-bottom: 1px solid #257be5;
 }
 
-button {
-    background-color: #000;
-    border: 1px solid white;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    margin-right: 5px;
-    
+/*menu hamburguer*/
+nav {
+  margin-right: 100px;
+  align-items: right;
+  justify-content: right;
 }
 
-
-
-img {
-    padding: 0px;
-
+#hamburguer-menu{
+  opacity: 0;
 }
 
-h1 {
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 10%;
-  }
+label{
+  cursor: pointer;
+  position: relative;
+  display: block;
+  height: 22px;
+  width: 30px;
+}
+
+label span{
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 100%;
+  border-radius: 30px;
+  background: #257be5;
+  transition: 0.25s ease-in-out;
+  color: #fff;
+  font-size: 16px;
+}
+
+label span:nth-child(1){
+  top: 0;
+}
+
+label span:nth-child(2){
+  top: 8px;
+}
+
+label span:nth-child(3){
+  top: 16px;
+}
+
+#hamburguer-menu:checked + label span:nth-child(1){
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+#hamburguer-menu:checked + label span:nth-child(2){
+  opacity: 0;
+}
+
+#hamburguer-menu:checked + label span:nth-child(3){
+  transform: rotate(45deg);
+  top:8px;
+}
+
+.novoVideo {
+  background-color: #000;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 50px;  
+}
+
+.logoSiflix {
+  margin: 5px 0px 5px 50px;
+}
+
+.bannerVideo {
+  width: 480px;
+  height: 360px;
+  left: 831px;
+  top: 246px;
+}
