@@ -1,13 +1,15 @@
 /* import da fonte Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
 
-/* soft reset do css */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+  /* soft reset do css */ 
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  @import {
+    url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")}
+}
+
 body {
   background-color: black;
   background-size: auto 100vh;
@@ -24,6 +26,41 @@ header {
   border-bottom: 1px solid #257be5;
 }
 
+.menu {
+  background-color: black;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  /* margin-right: 0em; */
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+}
+
+.menu ul li a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  text-decoration: none;
+  
+}
+
+.menu ul li a:hover {
+  cursor: pointer;
+  background-color: #257be5;
+  border: none;
+  color: white;
+}
 /*menu hamburguer
 nav {
   margin-right: 100px;
@@ -88,7 +125,9 @@ label span:nth-child(3){
   border: 1px solid white;
   color: white;
   padding: 10px 20px 10px 20px;
-  margin-right: 50px;  
+  margin-right: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .novoVideo:hover {
@@ -123,13 +162,13 @@ label span:nth-child(3){
 .sistInternet {
   padding: 20px;
   margin-left: 50px;
-  background-color: #6BD1FF;
+  background-color: #6bd1ff;
   color: #333333;
   height: 92px;
   width: 296px;
   border-radius: 4px;
   font-family: Roboto, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
   text-align: center;
 }
@@ -137,7 +176,7 @@ label span:nth-child(3){
 .secao1-titulo {
   margin: -20px 0px 0px 50px;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -145,8 +184,8 @@ label span:nth-child(3){
 
 .secao1-texto {
   margin: 0px 0px 0px 50px;
-  color: white; 
-  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
@@ -157,4 +196,5 @@ label span:nth-child(3){
 .bannerVideo {
   width: 480px;
   height: 360px;
+  margin-left: 50px;
 }
