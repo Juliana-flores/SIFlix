@@ -13,9 +13,15 @@
 }
 
 .entradas{
+    background-color: #53585D;
+    color: white;
     display: flex;
     margin: 2% auto 2% auto;
     width: 30%;
+    height: 35px;
+    padding: 3px;
+    border-radius: 3px;
+    border: 0px;
 }
 
 .button{
@@ -23,6 +29,18 @@
     margin: auto;
 }
 
+.inputBttA{
+    background-color: #2A7AE4;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+}
+.inputBttC{
+    background-color: #9E9E9E;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 6px;
+}
 .alinharButton{
     text-align: center;
 }
