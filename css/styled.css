@@ -5,43 +5,37 @@
     box-sizing: border-box;
   }
   
-  body {
-    background-color: black;
-    background-size: auto 100vh;
-    font-family: "Source Code Pro", monospace;
-    height: 100vh;
-    font-size: 12px;
-    
-
+body {
+  background-color: black;
+  background-size: auto 100vh;
+  font-family: "Source Code Pro", monospace;
+  height: 100vh;
+  font-size: 12px;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-    background-color: #000;
-    border-bottom: 1px solid #257be5;
+  background-color: #000;
+  border-bottom: 1px solid #257be5;
 }
 
 button {
-    background-color: #000;
-    border: 1px solid white;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    margin-right: 5px;
-    
+  background-color: #000;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 5px;  
 }
 
-
-
 img {
-    padding: 0px;
-
+  padding: 0px;
 }
 
 h1 {
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    margin-top: 10%;
-  }
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 10%;
+}
