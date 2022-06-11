@@ -1,3 +1,6 @@
+/* import da fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
 /* soft reset do css */
 * {
     margin: 0;
@@ -21,7 +24,7 @@ header {
   border-bottom: 1px solid #257be5;
 }
 
-/*menu hamburguer*/
+/*menu hamburguer
 nav {
   margin-right: 100px;
   align-items: right;
@@ -29,6 +32,7 @@ nav {
 }
 
 #hamburguer-menu{
+  position: absolute;
   opacity: 0;
 }
 
@@ -46,7 +50,7 @@ label span{
   height: 5px;
   width: 100%;
   border-radius: 30px;
-  background: #257be5;
+  background: #fff;
   transition: 0.25s ease-in-out;
   color: #fff;
   font-size: 16px;
@@ -77,6 +81,7 @@ label span:nth-child(3){
   transform: rotate(45deg);
   top:8px;
 }
+*/
 
 .novoVideo {
   background-color: #000;
@@ -86,13 +91,70 @@ label span:nth-child(3){
   margin-right: 50px;  
 }
 
+.novoVideo:hover {
+  cursor: pointer;
+  background-color: #257be5;
+  border: none;
+  color: white;
+}
+
 .logoSiflix {
   margin: 5px 0px 5px 50px;
+}
+
+#conteudo {
+  margin-bottom: 48px;
+}
+
+.secao1-sistInternet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.secao1-banner {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.sistInternet {
+  padding: 20px;
+  margin-left: 50px;
+  background-color: #6BD1FF;
+  color: #333333;
+  height: 92px;
+  width: 296px;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.secao1-titulo {
+  margin: -20px 0px 0px 50px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.secao1-texto {
+  margin: 0px 0px 0px 50px;
+  color: white; 
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 
 .bannerVideo {
   width: 480px;
   height: 360px;
-  left: 831px;
-  top: 246px;
 }
