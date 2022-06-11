@@ -1,9 +1,28 @@
 /*style do form de cadastro*/
-form#formCad{
-    margin: auto;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-input{
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    margin: 2%;
+}
+
+.entradas{
     display: flex;
     margin: 2% auto 2% auto;
     width: 30%;
+}
+
+.button{
+    display: inline-block;
+    margin: auto;
+}
+
+.alinharButton{
+    text-align: center;
 }

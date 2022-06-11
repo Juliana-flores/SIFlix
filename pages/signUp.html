@@ -6,24 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIFlix</title>
     <link rel="stylesheet" href="../css/styled.css">
-    <link rel="stylesheet" href="../css/styleSignU.css">
+    <link rel="stylesheet" href="../css/styleSign.css">
 </head>
 <body>
     <header>
         <img src="../img/Logo-home.png" alt="SIFlix">
     </header>
     <section>
-        <h1>Sign Up</h1>
+        <h1 class="titulo">Sign Up</h1>
         <form action="" id="formCad">
-            <label for="nome"></label><input type="text" value="Nome" id="nome">
-            <label for="matric"></label><input type="text" value="Matrícula" id="matric">
-            <label for="serie"></label><input type="text" value="Série" id="serie">
-            <label for="email"></label><input type="text" value="E-mail" id="email">
-            <label for="senha"></label><input type="text" value="Senha" id="senha">
-            <label for="csenha"></label><input type="text" value="Confirmação de senha" id="csenha">
+            <input type="text" value="Nome" class="entradas">
+            <input type="text" value="Matrícula" class="entradas">
+            <input type="text" value="Série" class="entradas">
+            <input type="text" value="E-mail" class="entradas">
+            <input type="text" value="Senha" class="entradas">
+            <input type="text" value="Confirmação de senha" class="entradas">
         </form>
-        <a href="../pages/signIn.html"><input type="button" value="Sign up"></a>
-        <input type="button" value="Limpar">
+        <div class="alinharButton">
+            <p  class="button">
+                <a href="../pages/signIn.html"><input type="button" value="Sign up"></a>
+            </p>
+            <p  class="button">
+                <input type="button" value="Limpar">
+            </p>
+        </div>
+        
     </section>
 </body>
 </html>
