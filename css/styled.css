@@ -1,13 +1,14 @@
 /* import da fonte Roboto */
 
-  /* soft reset do css */ 
-  * {
+/* soft reset do css */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
   @import {
-    url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")}
+    url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+  }
 }
 
 body {
@@ -33,7 +34,6 @@ header {
 .menu ul {
   display: flex;
   justify-content: space-around;
-  /* margin-right: 0em; */
 }
 
 .menu li {
@@ -51,8 +51,9 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
   text-decoration: none;
-  
 }
 
 .menu ul li a:hover {
@@ -61,6 +62,7 @@ header {
   border: none;
   color: white;
 }
+
 /*menu hamburguer
 nav {
   margin-right: 100px;
@@ -128,6 +130,7 @@ label span:nth-child(3){
   margin-right: 50px;
   text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .novoVideo:hover {
@@ -197,4 +200,112 @@ label span:nth-child(3){
   width: 480px;
   height: 360px;
   margin-left: 50px;
+}
+
+.signIn label {
+  display: flex;
+  align-items: center;
+}
+
+.signIn a {
+  text-decoration: none;
+}
+
+.signIn h1 {
+  color: #f5f5f5;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Roboto";
+  margin-bottom: 2%;
+  margin-top: 5%;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.inputLogin {
+  padding: 10px 20px 10px 20px;
+  background-color: #53585d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  margin: 1% auto 1% auto;
+  width: 30%;
+}
+
+form#formCad {
+  margin: auto;
+
+}
+
+
+.button {
+  width: 100%;
+  max-width: 100%;
+
+
+}
+
+.buttonLogin {
+  background-color: #257be5;
+  justify-content: space-around;
+  width: 150px;
+  height: 50px;
+  top: 815px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-style: normal;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  cursor: pointer;
+  /* margin-left: 515px; */
+  border-radius: 8px;
+
+
+}
+
+.buttonSignUp {
+  background-color: #9E9E9E;
+  justify-content: space-around;
+  width: 150px;
+  height: 50px;
+  top: 815px;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-style: normal;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+
+}
+
+.signUp label {
+  display: flex;
+  align-items: center;
+}
+
+.signUp a {
+  text-decoration: none;
+}
+
+.signUp h1 {
+  color: #f5f5f5;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Roboto";
+  margin-bottom: 2%;
+  margin-top: 5%;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-family: 'Roboto';
+  font-style: normal;
 }
