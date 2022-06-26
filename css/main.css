@@ -16,7 +16,7 @@ body {
     justify-items: center;
     font-size: 18px;
 
-    background: gray;
+    background: black;
     background-size:cover;
 
 
@@ -62,7 +62,7 @@ body {
 }
 
 .form-message-success{
-    color: var(--color-sucess);
+    color: var(--color-success);
 }
 
 .form-message-error{

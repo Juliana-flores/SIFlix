@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <form class="form form-hidden" id="login">
+        <form class="form" id="login">
             <h1 class="form-title">Login</h1>
             <div class="form-message form-message-error"></div>
             <div class="form-input-group">
@@ -28,7 +28,7 @@
                 <a class="form-link" id="linkCreateAccount">Não tem uma conta? Crie aqui</a>
             </p>
         </form>
-        <form class="form" id="createAccount">
+        <form class="form form-hidden" id="createAccount">
             <h1 class="form-title">Criar conta</h1>
             <div class="form-message form-message-error"></div>
             <div class="form-input-group">
@@ -36,18 +36,18 @@
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="text" class="form-input" autofocus placeholder="E-mail">
+                <input type="text" id="signupUsername" class="form-input" autofocus placeholder="E-mail">
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="text" class="form-input" autofocus placeholder="Matricula">
+                <input type="text" id="matricula" class="form-input" autofocus placeholder="Matricula">
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="password" class="form-input" autofocus placeholder="Senha">
+                <input type="password" id="password"class="form-input" autofocus placeholder="Senha">
             </div>
             <div class="form-input-group">
-                <input type="password" class="form-input" autofocus placeholder="Confirmação de Senha">
+                <input type="password" id="confirmPassword" class="form-input" autofocus placeholder="Confirmação de Senha">
             </div>
             <button class="form-button" type="submit">Continue</button>
 
