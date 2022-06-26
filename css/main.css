@@ -22,6 +22,12 @@ body {
 
 }
 
+img.center {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
 .container {
     width: 400px;
     max-width: 400px;
