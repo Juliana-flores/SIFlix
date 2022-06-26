@@ -3,7 +3,7 @@
 body {
     --color-primary: #2A7AE4;
     --color-primary-dark:#215fb1;
-    --color-secondary:#6BD1FF;
+    --color-secondary:#ae67e9;
     --color-error: #cc3333;
     --color-sucess: #9CD33B;
     --border-radius:4px;
@@ -27,9 +27,9 @@ body {
     max-width: 400px;
     margin: 1rem;
     padding: 2rem;
-    box-shadow: 0 0 40px rgba(0,0,0,0.2);
-    border-radius: (--border-radius);
-    background:#ffffff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: #ffffff;
 
 }
 
@@ -37,6 +37,10 @@ body {
 .form-input,
 .form-button {
     font:500 1rem 'Roboto', sans-serif;
+}
+
+.form-hidden{
+    display: none;
 }
 
 .form > *:first-child{
@@ -96,5 +100,40 @@ body {
     margin-top: 0.5rem;
     font-size: 0.85rem;
     color: var(--color-error);
-    
+
+}
+
+.form-button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+}
+
+.form-button:hover{
+    background: var(--color-primary-dark);
+}
+
+.form-button:active{
+    transform: scale(0.98);
+}
+
+.form-text{
+    text-align: center;
+}
+
+.form-link{
+    color: var(--color-secondary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.form-link:hover{
+    text-decoration: underline; ;
 }
