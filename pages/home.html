@@ -7,17 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIFlix</title>
     <link rel="stylesheet" href="../css/styled.css">
+    <script src="../components/homePage.js"></script>
 </head>
+<header>
+    <img src="../img/Logo-home.png" alt="logo SIFlix" class="logoSiflix">
+    <nav class="menu">
+        <ul>
+            <li><a href="../pages/login.html" target="_blank">Login</a></li>
 
-<body>
-    <header>
-        <img src="../img/Logo-home.png" alt="logo SIFlix" class="logoSiflix">
-        <nav class="menu">
-            <ul>
-                <li><a href="../pages/login.html" target="_blank">Login</a></li>
+        </ul>
+    </nav>
 
-            </ul>
-        </nav>
+    <body>
+        <main-header></main-header>
+        <div style="height:500px">
+
+        </div>
+        <h1>Continue assistindo</h1>
+        <div class="categoria">
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+        </div>
+        <h1>Estude algo novo</h1>
+        <div class="categoria">
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+            <main-videocard></main-videocard>
+        </div>
+
 
         <!-- <nav>
             <h2> Minhas disciplinas </h2>
@@ -32,19 +60,19 @@
             </div>
         </nav> -->
         <input type="button" class="novoVideo" name="button" value="Novo Vídeo">
-    </header>
+</header>
 
-    <main id="conteudo">
-        <section class="secao1-sistInternet">
-            <div class="secao1-banner">
-                <h1 class="sistInternet"> Sistemas para Internet </h1>
-                <h2 class="secao1-titulo">Web: Como fazer um CRUD com JavaScript?</h2>
-                <p class="secao1-texto">E na onda dos CRUDs, dessa vez chegou a hora do CRUD Web!!! Vamos juntos
-                    construir um com o mais básico possível HTML e JavaScript pra você fazer um TODO List que é a sopa
-                    primordial de qualquer código que você vai interagir na sua vida!</p>
-                <img src="../img/javascript-CRUD 2.png" class="bannerVideo">
-            </div>
-            <!--<div class="secao1-carrosselVideos">
+<main id="conteudo">
+    <section class="secao1-sistInternet">
+        <div class="secao1-banner">
+            <h1 class="sistInternet"> Sistemas para Internet </h1>
+            <h2 class="secao1-titulo">Web: Como fazer um CRUD com JavaScript?</h2>
+            <p class="secao1-texto">E na onda dos CRUDs, dessa vez chegou a hora do CRUD Web!!! Vamos juntos
+                construir um com o mais básico possível HTML e JavaScript pra você fazer um TODO List que é a sopa
+                primordial de qualquer código que você vai interagir na sua vida!</p>
+            <img src="../img/javascript-CRUD 2.png" class="bannerVideo">
+        </div>
+        <!--<div class="secao1-carrosselVideos">
                 <ul class="secao1-slider">
                     <li>
                         <img src="\img\imgteste.png" />
@@ -58,13 +86,13 @@
                 </ul>
             </div>-->
 
-        </section>
+    </section>
 
-        <section class="secao2-algEstDados">
-            <div class="secao2-banner">
-                <h1 class="algEstDados"> Algoritmos e Estrutura de Dados II </h1>
-            </div>
-            <!--<div class="secao2-carrosselVideos">
+    <section class="secao2-algEstDados">
+        <div class="secao2-banner">
+            <h1 class="algEstDados"> Algoritmos e Estrutura de Dados II </h1>
+        </div>
+        <!--<div class="secao2-carrosselVideos">
                 <ul class="secao2-slider">
                     <li>
                         <img src="\img\imgteste.png" />
@@ -77,13 +105,13 @@
                     </li>
                 </ul>
             </div>-->
-        </section>
+    </section>
 
-        <section class="secao3-aic3">
-            <div class="secao3-banner">
-                <h1 class="aic3"> AIC III </h1>
-            </div>
-            <!--<div class="secao3-carrosselVideos">
+    <section class="secao3-aic3">
+        <div class="secao3-banner">
+            <h1 class="aic3"> AIC III </h1>
+        </div>
+        <!--<div class="secao3-carrosselVideos">
                 <ul class="secao3-slider">
                     <li>
                         <img src="\img\imgteste.png" />
@@ -96,8 +124,8 @@
                     </li>
                 </ul>
             </div>-->
-        </section>
-    </main>
+    </section>
+</main>
 
 </body>
 
