@@ -5,6 +5,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  background-size: auto 100vh;
+  font-family: "Source Code Pro", monospace;
+  height: 100vh;
+  font-size: 12px;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
   @import {
     url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
@@ -23,6 +36,52 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(0, 5, 31);
+  border-bottom: 1px solid #257be5;
+  padding: 0px 25px
+}
+
+button {
+  background-color: rgba(71, 71, 71, 0.425);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  margin-right: 5px;
+
+}
+
+.categoria {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  padding: 20px 0px;
+  margin-bottom: 100px;
+}
+
+.videoCard {
+  height: 190px;
+  width: 250px;
+  background-color: rgb(24, 24, 24);
+  margin: 0px 40px
+}
+
+.thumb {
+  height: 125px;
+  background-color: #257be5
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+}
+
+.dataAdd {
+  color: grey
+}
+
+img {
+  margin: 20px 0px;
   background-color: #000;
   border-bottom: 1px solid #257be5;
 }
@@ -294,16 +353,33 @@ form#formCad {
   text-decoration: none;
 }
 
-.signUp h1 {
-  color: #f5f5f5;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-family: "Roboto";
-  margin-bottom: 2%;
-  margin-top: 5%;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  font-family: 'Roboto';
-  font-style: normal;
+HEAD h1 {
+  color: white;
+  margin: 10px
+}
+
+/* width */
+.categoria::-webkit-scrollbar {
+  height: 5px
+}
+
+
+/* Handle */
+.categoria::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.014);
+  border-radius: 10px;
+
+  /* .signUp h1 {
+    color: #f5f5f5;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: "Roboto";
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto';
+    font-style: normal; */
+
 }
