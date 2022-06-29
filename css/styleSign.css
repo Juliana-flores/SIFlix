@@ -1,0 +1,10 @@
+/*style do form de cadastro*/
+form#formCad {
+    margin: auto;
+}
+
+input {
+    display: flex;
+    margin: 2% auto 2% auto;
+    width: 30%;
+}
