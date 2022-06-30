@@ -14,6 +14,8 @@
 
 ### Adição de novos vídeos pelos usuários;
 
+# Para rodar o projeto no navegador, basta abrir o arquivo index.html.
+
 # Componentes:
 
 ## 126714 - Bruno Agoston de Assis
