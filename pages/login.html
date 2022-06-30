@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' href='../css/main.css'>
+    <script src="../js/storage.js"></script>
     <script src='../js/main.js'></script>
 </head>
+
 <body>
     <div class="container">
         <img src="../img/Logo-home.png" alt="logo SIFlix" class="center">
         <form class="form" id="login">
-            
+
             <h1 class="form-title">Login</h1>
             <div class="form-message form-message-error"></div>
             <div class="form-input-group">
-                <input type="text" class="form-input" autofocus placeholder="E-mail">
+                <input type="text" name="email" class="form-input" autofocus placeholder="E-mail">
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="password" class="form-input" autofocus placeholder="Password">
+                <input type="password" name="password" class="form-input" autofocus placeholder="Password">
             </div>
             <button class="form-button" type="submit">Continue</button>
-            <p class="form-text">
-                <a href="#" class="form-link">Esqueceu seu password?</a>
-            </p>
             <p class="form-text">
                 <a class="form-link" id="linkCreateAccount">Não tem uma conta? Crie aqui</a>
             </p>
@@ -34,22 +34,26 @@
             <h1 class="form-title">Criar conta</h1>
             <div class="form-message form-message-error"></div>
             <div class="form-input-group">
-                <input type="text" class="form-input" autofocus placeholder="Nome Completo">
+                <input type="text" id="signupName" class="form-input" autofocus placeholder="Nome Completo">
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="text" id="signupUsername" class="form-input" autofocus placeholder="E-mail">
+                <input type="text" id='signupUsername' name="signupUsername" class="form-input" autofocus
+                    placeholder="E-mail">
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="text" id="matricula" class="form-input" autofocus placeholder="Matricula">
+                <input type="text" id="signupMatricula" name="signupMatricula" class="form-input" autofocus
+                    placeholder="Matricula">
                 <div class="form-input-error-message"></div>
             </div>
             <div class="form-input-group">
-                <input type="password" id="password"class="form-input" autofocus placeholder="Senha">
+                <input type="password" id="signupPassword" name="signupPassword" class="form-input" autofocus
+                    placeholder="Senha">
             </div>
             <div class="form-input-group">
-                <input type="password" id="confirmPassword" class="form-input" autofocus placeholder="Confirmação de Senha">
+                <input type="password" id="signupConfirmPassword" name="signupConfirmPassword" class="form-input"
+                    autofocus placeholder="Confirmação de Senha">
             </div>
             <button class="form-button" type="submit">Continue</button>
 
@@ -59,6 +63,7 @@
         </form>
 
     </div>
-    
+
 </body>
+
 </html>
