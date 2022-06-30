@@ -223,6 +223,7 @@ body {
 }
 
 .subtitle {
+  display: flex;
   padding: 15px 20px 15px 20px;
   margin-left: 10px;
   background-color: #257be5;
