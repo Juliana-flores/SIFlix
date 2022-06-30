@@ -10,6 +10,10 @@
 
 ### Navegação entre as telas.
 
+### Funcionalidade de Login e Cadastro com Local Storage;
+
+### Adição de novos vídeos pelos usuários;
+
 # Componentes:
 
 ## 126714 - Bruno Agoston de Assis
