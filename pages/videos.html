@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Vídeos</title>
+    <link rel="stylesheet" href="../css/styled.css">
+    <script src="../components/homePage.js"></script>
+    <script src="../js/storage.js">
+    </script>
+    <script src="../js/video.js"></script>
+
+</head>
+<header>
+    <img src="../img/Logo-home.png" alt="logo SIFlix" class="logoSiflix">
+    <nav class="menu">
+        <ul>
+            <li><a href="../pages/home.html" target="_blank">Home</a></li>
+            <li class="novo-video"><a href="../pages/videos.html" target="_blank">Novo Vídeo</a></li>
+
+        </ul>
+    </nav>
+
+</header>
+
+<body>
+    <div class="container">
+
+        <form class="form" id="createVideo">
+            <div class="form-message form-message-error"></div>
+
+            <h1 class="form-video">Cadastro de Vídeo</h1>
+
+            <div class="form-text-input">
+                <input type="text" name="videoTitle" class="form-input" autofocus placeholder="Título:">
+
+            </div>
+            <div class="form-text-input">
+                <input type="text" name="videoURL" class="form-input" autofocus placeholder="URL:">
+            </div>
+            <button class="form-button" type="submit">Cadastrar</button>
+</body>
+
+<footer>
+    <p class="footer">SIFlix - Todos os direitos reservados</p>
+</footer>
+
+</html>

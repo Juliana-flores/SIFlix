@@ -1,5 +1,12 @@
 const userStorage = new UserStorage();
 
+/**
+ * @function setFormMessage
+ * @param {Element} formElement
+ * @param {string} type
+ * @param {string} message
+ * @returns {void}
+ */
 function setFormMessage(formElement, type, message) {
   const messageElement = formElement.querySelector(".form-message");
 
@@ -8,6 +15,12 @@ function setFormMessage(formElement, type, message) {
   messageElement.classList.add(`form-message-${type}`);
 }
 
+/**
+ * @function setInputError
+ * @param {Element} inputElement
+ * @param {string} message
+ * @returns {void}
+ */
 function setInputError(inputElement, message) {
   inputElement.classList.add("form-input-error");
   inputElement.parentElement.querySelector(
@@ -15,6 +28,11 @@ function setInputError(inputElement, message) {
   ).textContent = message;
 }
 
+/**
+ * @function clearInputError
+ * @param {Element} inputElement
+ * @returns {void}
+ */
 function clearInputError(inputElement) {
   inputElement.classList.remove("form-input-error");
   inputElement.parentElement.querySelector(
@@ -23,8 +41,9 @@ function clearInputError(inputElement) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const loginForm = document.querySelector("#login");
   const createAccountForm = document.querySelector("#createAccount");
+  const createVideoForm = document.querySelector("#createVideo");
+  const loginForm = document.querySelector("#login");
 
   document
     .querySelector("#linkCreateAccount")
@@ -82,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
       setTimeout(() => {
         window.location.href = "login.html";
-      }, 5000);
+      }, 3000);
 
       return;
     }
