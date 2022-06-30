@@ -1,4 +1,4 @@
-# SIFlix é uma plataforma com o objetivo de auxiliar os estudos nas disciplinas de Sistemas de Informação.
+# SIFlix é uma plataforma com o objetivo de auxiliar os estudos nas disciplinas de Sistemas de Informação e também no seu entretenimento.
 
 # Desenvolvimento:
 
