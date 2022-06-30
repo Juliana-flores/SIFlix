@@ -335,9 +335,10 @@ form#formCad {
   margin-inline-end: 0px;
   font-weight: bold;
 
+
 }
 
-*/ .form-text-input {
+.form-text-input {
   display: block;
   width: 90%;
   max-width: 90%;
