@@ -166,11 +166,7 @@ const videoList = [
     title: "Teste de Turing",
     url: "https://www.youtube.com/watch?v=BaPGU4JWa34",
   },
-  // {
-  //   id: 13,
-  //   title: "O que é Data Science?",
-  //   url: "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s",
-  // },
+
   {
     id: 14,
     title: "Melhor forma de aprender Python",
