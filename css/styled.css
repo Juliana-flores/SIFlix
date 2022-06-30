@@ -207,7 +207,8 @@ body {
   background-color: #257be5;
   color: #333333;
   height: auto;
-  width: 50%;
+  width: 40%;
+  max-width: 40%;
   border-radius: 4px;
   font-family: Roboto, sans-serif;
   font-size: 30px;
