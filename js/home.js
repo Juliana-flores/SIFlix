@@ -14,10 +14,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const thumbElement = document.createElement("div");
     const nameElement = document.createElement("div");
 
-    const titleElement = document.createElement("h");
+    const titleElement = document.createElement("h1");
     titleElement.classList.add("title");
     titleElement.innerText = video.title;
     nameElement.appendChild(titleElement);
+
+    const urlElement = document.createElement("a");
+    urlElement.href = video.url;
+    urlElement.innerText = video.url;
+    nameElement.appendChild(urlElement);
 
     const thumbnail = searchThumbnail(video.url);
     const imageElement = document.createElement("img");
