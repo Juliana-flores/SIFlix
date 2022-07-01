@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   createAccountForm.addEventListener("submit", (e) => {
     e.preventDefault();
+    console.log(e.target)
     const user = {
       username: e.target.signupUsername?.value,
       password: e.target.signupPassword?.value,

@@ -14,7 +14,8 @@
 
 ### Adição de novos vídeos pelos usuários;
 
-# Para rodar o projeto no navegador, basta abrir o arquivo index.html.
+## Para rodar o projeto no navegador, basta abrir o arquivo index.html.
+## Para acessar o deploy na Vercel: [https://siflix.vercel.app/](https://siflix.vercel.app/)
 
 # Componentes:
 
